@@ -1,0 +1,146 @@
+body, ul, li, h1, h2, a{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+.myBanner img{
+    max-width: 100%;
+    top: 0;
+    left: 0;
+}
+.myBanner{
+    position: relative;
+    max-width: 100%;
+}
+.myBanner .welcome{
+    position: absolute;
+    top: 40%;
+    color: black;
+    background-color: gold;
+    border: 10px solid black;
+    border-radius: 15px;
+    left: 0%;
+    padding: 20px;
+    margin: 10px;
+    font-size: 20px;
+    
+}
+.myBanner h2{
+    font-size: 40x;
+}
+header{
+    position: fixed;
+    color: red;
+    background-color: gold;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    text-align: center;
+    padding: 2px;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+header h1{
+    padding: 5px 5px;
+    border: 7px solid darkblue;
+    display: inline-block;
+    color: black;
+    border-radius: 20px;
+    font-size: 35px;
+}
+nav{
+    background-color: gold;
+    padding: 10px;
+    position: sticky;
+    top: 63px;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+nav ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+nav li{
+    width: 30%;
+    font-size: 20px;
+    display: inline-block;
+    font: bold;
+    padding: 8px;
+    margin: 3px;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+    font: bold;
+    font-family: monospace;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 5%;
+}
+nav li a.join{
+    color: black;
+}
+main{
+    max-width: 100%;
+    width: 1200px;
+    margin: 20px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+article h2{
+    color: rgb(24, 3, 212);
+    font-size: 45px;
+}
+article p{
+    color: rgb(10, 89, 184);
+    font-size: 30px;
+    font: bold;
+}
+.images{
+    text-align: center;
+    margin: 80px 0;
+    white-space: nowrap;
+}
+.images li{
+    display: inline-block;
+    width: 40%;
+    margin: 20px 5%;
+}
+.images li img{
+    max-width: 100%;
+}
+.joinLink{
+    background-color: rgba(255, 217, 0, 0.644);
+    text-align: center;
+    padding: 10px 5px;
+    border: 5px solid black;
+}
+.joinLink h2{
+    font-size: 40px;
+    border: 5px solid black;
+    display: inline;
+    border-radius: 10px;
+
+}
+.joinLink p{
+    font-size: 30px;
+    font: bold;
+}
+form input{
+    margin: 5px 5px;
+    font-size: 20px;
+    padding: 8px 4px;
+    border: 5px solid gold;
+    border-radius: 3%;
+    display: inline;
+}
+footer{
+    text-align: center;
+    background-color: rgb(26, 7, 109);
+    color: whitesmoke;
+    padding: 2px;
+    border: 2px solid black;
+    font-size: 13px;
+}
